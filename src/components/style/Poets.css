@@ -1,0 +1,67 @@
+.poet-section {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.poet-list {
+    position: relative;
+    margin: 0 0 2rem 4rem;
+    display: flex;
+    gap: 1rem;
+    overflow-x: hidden;
+    padding: 1rem 2rem;
+    height: max-content;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* for Firefox */
+}
+
+poet-list::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.poet {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.poet > img {
+    width: 150px;
+    height: 150px;
+}
+
+.poet > h2 {
+    font-size: 1rem;
+}
+
+.scroll-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+}
+
+.scroll-buttons > i {
+    cursor: pointer;
+}
