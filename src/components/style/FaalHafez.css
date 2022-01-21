@@ -1,0 +1,46 @@
+.faal-section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.holder {
+    margin: 2rem;
+    background-color: rgba(255, 221, 0, 0.55);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    gap: 1rem;
+}
+
+.poem-holder {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1.2rem;
+}
+
+.poem-holder > h1 {
+    text-align: center;
+}
+
+.poem {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+}
+
+.poem > div {
+    display: flex;
+    gap: 3rem;
+}
+
+.poem p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2;
+}

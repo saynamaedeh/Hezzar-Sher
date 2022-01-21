@@ -1,0 +1,26 @@
+nav {
+    padding: 2rem 2rem;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav > ul > li {
+    font-size: 1.2rem;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li:first-child {
+    margin-left: auto;
+}
+
+nav > ul > li:last-child {
+    margin-left: auto;
+}
