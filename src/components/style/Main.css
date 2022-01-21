@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main > .main-section {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+main > .main-section > .cover {
+    padding: 0 2rem;
+}
+
+main > .main-section > .cover > img {
+    width: 400px;
+    height: 500px;
+    border-radius: 1rem;
+}
+
+main > .main-section > .hero {
+    width: 30%;
+    padding: 2rem 0;
+}
+
+main > .main-section > .hero > p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+main > .main-section > .hero > .hero-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+main > .main-section > .hero > .hero-sub > button {
+    font-size: 1.1rem;
+    background-color: #ffdd00;
+    border: none;
+    border-radius: 1rem;
+    padding: .75rem;
+}
+
